@@ -96,6 +96,7 @@ services:
 volumes:
   kong_postgres_data:
   konga_db_data:
+  kong_ssl_certs:
 
 networks:
   kong_network:
