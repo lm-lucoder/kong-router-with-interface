@@ -78,7 +78,7 @@ services:
     container_name: konga
     restart: always
     ports:
-      - "1337:1337"
+      - "3000:1337"
     environment:
       DB_ADAPTER: postgres
       DB_HOST: konga-db
